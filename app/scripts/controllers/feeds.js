@@ -9,9 +9,9 @@
  */
 angular.module('angularApp')
   .controller('FeedsCtrl', function ($http, $scope) {
-  	$http.get('feeds/fred-feeds.json').
+  	$http.get('feeds/user.json').
   		success(function (data) {
-  			$scope.feeds = data;
+  			$scope.users = data;
   			console.log('success');
   		});
   });
