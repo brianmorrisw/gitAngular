@@ -1,2 +1,0 @@
-# gitAngular
-Angular Test
