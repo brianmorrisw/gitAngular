@@ -10,7 +10,7 @@
 			"postDate": "01012015",
 			"postAuthor": "Fred Salaysay",
 			"postCategory": "Tech",
-			"postTitle": "TECH Lorem ipsum Minim Excepteur do non voluptate aliqua.",
+			"postTitle": "TECH Lorem ipsum Minim Excepteur...",
 			"postContent": "TECH Lorem ipsum Excepteur in dolor do occaecat enim est veniam pariatur elit in nisi eiusmod sint irure id velit fugiat ullamco mollit id nulla."
 		},
 		{
@@ -18,7 +18,7 @@
 			"postDate": "02022015",
 			"postAuthor": "Fred Salaysay",
 			"postCategory": "Aviation",
-			"postTitle": "AVIATION Lorem ipsum Minim Excepteur do non voluptate aliqua.",
+			"postTitle": "AVIATION Lorem ipsum Minim Excepteur...",
 			"postContent": "AVIATION Lorem ipsum Excepteur in dolor do occaecat enim est veniam pariatur elit in nisi eiusmod sint irure id velit fugiat ullamco mollit id nulla."
 		},
 		{
@@ -26,8 +26,26 @@
 			"postDate": "03032015",
 			"postAuthor": "Fred Salaysay",
 			"postCategory": "Lifestyle",
-			"postTitle": "LIFESTYLE Lorem ipsum Minim Excepteur do non voluptate aliqua.",
+			"postTitle": "LIFESTYLE Lorem ipsum Minim Excepteur",
 			"postContent": "LIFESTYLE Lorem ipsum Excepteur in dolor do occaecat enim est veniam pariatur elit in nisi eiusmod sint irure id velit fugiat ullamco mollit id nulla."
+		}
+	],
+	"favorites": [
+		{
+			"favoriteAuthor": "Brian Wong",
+			"favoriteTitle": "TrashTalk 101"
+		},
+		{
+			"favoriteAuthor": "Pat Velasco",
+			"favoriteTitle": "Porn 101"
+		},
+		{
+			"favoriteAuthor": "Kevin Amis",
+			"favoriteTitle": "Poverty 101"
+		},
+		{
+			"favoriteAuthor": "Carlo Bascoguin",
+			"favoriteTitle": "Disappearing Act"
 		}
 	]
 }
