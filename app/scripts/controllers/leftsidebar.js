@@ -12,6 +12,6 @@ angular.module('angularApp')
   	$http.get('feeds/user-details/fred.json').
   		success(function (data) {
   			$scope.owner = data;
-  			console.log('success users');
+  			console.log('success owner');
   		});
   });

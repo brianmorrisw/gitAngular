@@ -28,6 +28,8 @@ html, body {
 
 .content {
 	width: 60%;
+	padding-left: 15px;
+	padding-right: 15px;
 }
 
 .owner-name {
@@ -65,4 +67,10 @@ html, body {
 
 .favoriteTitle {
 	font-weight: bold;
+}
+
+.popularPostsItem {
+	display: block;
+	width: 30%;
+	float: left;
 }

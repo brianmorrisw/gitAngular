@@ -8,10 +8,10 @@
  * Controller of the angularApp
  */
 angular.module('angularApp')
-  .controller('MainCtrl', function ($scope) {
-    $scope.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
+  .controller('MainCtrl', function ($http, $scope) {
+  	$http.get('feeds/frontpage/popular-posts.json').
+  		success(function (data) {
+  			$scope.frontpage = data;
+  			console.log('success frontpage');
+  		});
   });
