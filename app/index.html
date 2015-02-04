@@ -26,8 +26,12 @@
       <div class="leftSidebar" ng-controller="LeftsidebarCtrl">
         <h2 class="owner-name"><a href="#">{{owner.firstName + ' ' + owner.lastName}}</a></h2>
         <h4 class="tagline">{{owner.tagline}}</h4>
-        <ul class="list-group">
-            <li class="list-group-item" ng-repeat="titles in owner.posts">{{titles.postTitle}}</li>
+        <h5 class="listHeading">Recent Posts</h5>
+        <ul class="list-group recentPosts">
+            <li class="list-group-item postTitle" ng-repeat="titles in owner.posts">
+                {{titles.postTitle}}
+                <span class="badge">10</span>
+            </li>
         </ul>
       </div>
       <div class="content" ng-view></div>

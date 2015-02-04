@@ -45,3 +45,16 @@ html, body {
 	padding: 5px 5px;
 	font-size: 1em;
 }
+
+.postTitle {
+	font-size: 0.85em;
+}
+
+.listHeading {
+	text-align: center;
+	font-size: 1.25em;
+	display: block;
+	background: #eee;
+	padding: 10px 0;
+	margin: 0 0;
+}
