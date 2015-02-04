@@ -77,14 +77,3 @@ body {
     border-bottom: 0;
   }
 }
-
-.name {
-  font-weight: bold;
-  padding: 4px 0 4px 0;
-}
-
-.tagline {
-  font-size: 0.75em;
-  padding: 5px 5px;
-  background: #eee;
-}

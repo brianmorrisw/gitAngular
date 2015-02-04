@@ -29,10 +29,6 @@ angular
         templateUrl: 'views/about.html',
         controller: 'AboutCtrl'
       })
-      .when('/feeds', {
-        templateUrl: 'views/feeds.html',
-        controller: 'FeedsCtrl'
-      })
       .otherwise({
         redirectTo: '/'
       });

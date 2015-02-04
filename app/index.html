@@ -22,7 +22,14 @@
     <![endif]-->
 
     <!-- Add your site or application content here -->
-    <div ng-view></div>
+    <div class="wrapper">
+      <div class="leftSidebar" ng-controller="LeftsidebarCtrl">
+        <h2>{{owner.firstName}}</h2>
+        <p ng-repeat="user in users">{{user.first_name + ' ' + user.last_name}}</p>
+      </div>
+      <div class="content" ng-view></div>
+      <div class="rightSidebar">Test Right</div>
+    </div>
 
     <!-- build:js(.) scripts/oldieshim.js -->
     <!--[if lt IE 9]>
@@ -51,7 +58,6 @@
         <script src="scripts/app.js"></script>
         <script src="scripts/controllers/main.js"></script>
         <script src="scripts/controllers/about.js"></script>
-        <script src="scripts/controllers/feeds.js"></script>
         <script src="scripts/controllers/leftsidebar.js"></script>
         <!-- endbuild -->
 </body>

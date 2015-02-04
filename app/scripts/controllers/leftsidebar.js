@@ -9,9 +9,14 @@
  */
 angular.module('angularApp')
   .controller('LeftsidebarCtrl', function ($http, $scope) {
-  	$http.get('feeds/fred-feeds.json').
+  	$http.get('feeds/feed.json').
   		success(function (data) {
-  			$scope.feeds = data;
-  			console.log('success');
+  			$scope.users = data;
+  			console.log('success users');
+  		});
+  	$http.get('feeds/user-details.json').
+  		success(function (details) {
+  			$scope.owner = details;
+  			console.log('success user details');
   		});
   });

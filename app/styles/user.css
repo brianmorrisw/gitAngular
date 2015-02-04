@@ -1,36 +1,17 @@
 html, body {
 	height: 100%;
-}
-
-body {
-	border: 0 0;
-	margin: 0 0;
 	padding: 0 0;
-}
-
-.wrapper {
-	border: 0 0;
 	margin: 0 0;
-	padding: 0 0;
-	width: 100%;
-}
-
-.green {
-	background: green;
-}
-
-.red {
-	background: red;
+	border: 0 0;
 }
 
 .leftSidebar, .content, .rightSidebar {
-	float: left;
 	height: 100%;
+	float: left;
 }
 
 .leftSidebar, .rightSidebar {
 	width: 20%;
-	background: #ccc;
 }
 
 .content {
