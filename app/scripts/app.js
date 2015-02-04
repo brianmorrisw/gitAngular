@@ -29,6 +29,14 @@ angular
         templateUrl: 'views/about.html',
         controller: 'AboutCtrl'
       })
+      .when('/popular', {
+        templateUrl: 'views/popular.html',
+        controller: 'PopularCtrl'
+      })
+      .when('/recent', {
+        templateUrl: 'views/recent.html',
+        controller: 'RecentCtrl'
+      })
       .otherwise({
         redirectTo: '/'
       });

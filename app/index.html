@@ -23,9 +23,12 @@
 
     <!-- Add your site or application content here -->
     <div class="wrapper">
-      <div class="leftSidebar" ng-controller="LeftsidebarCtrl" ng-include="'scripts/includes/leftsidebar.html'">
+      <div class="leftSidebar" ng-controller="LeftsidebarCtrl" ng-include="'views/includes/leftsidebar.html'">
       </div>
-      <div class="content" ng-view></div>
+      <div class="content">
+        <header id="header" ng-include="'views/includes/header.html'"></header><!-- /header -->
+        <div ng-view></div>
+      </div>
       <div class="rightSidebar">Test Rightsidebar</div>
     </div>
 
@@ -54,9 +57,9 @@
 
         <!-- build:js({.tmp,app}) scripts/scripts.js -->
         <script src="scripts/app.js"></script>
-        <script src="scripts/controllers/main.js"></script>
-        <script src="scripts/controllers/about.js"></script>
         <script src="scripts/controllers/leftsidebar.js"></script>
+        <script src="scripts/controllers/popular.js"></script>
+        <script src="scripts/controllers/recent.js"></script>
         <!-- endbuild -->
 </body>
 </html>

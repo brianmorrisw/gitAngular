@@ -2,13 +2,13 @@
 
 /**
  * @ngdoc function
- * @name angularApp.controller:AboutCtrl
+ * @name angularApp.controller:RecentCtrl
  * @description
- * # AboutCtrl
+ * # RecentCtrl
  * Controller of the angularApp
  */
 angular.module('angularApp')
-  .controller('AboutCtrl', function ($scope) {
+  .controller('RecentCtrl', function ($scope) {
     $scope.awesomeThings = [
       'HTML5 Boilerplate',
       'AngularJS',

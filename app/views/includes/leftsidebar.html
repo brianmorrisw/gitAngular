@@ -1,4 +1,4 @@
-<h2 class="owner-name"><a href="#">{{owner.firstName + ' ' + owner.lastName}}</a></h2>
+<h2 class="owner-name"><a href="#/">{{owner.firstName + ' ' + owner.lastName}}</a></h2>
 <h4 class="tagline">{{owner.tagline}}</h4>
 <h5 class="listHeading">Recent Posts</h5>
 <ul class="list-group recentPosts">
@@ -9,6 +9,6 @@
 <h5 class="listHeading">Recent Favorites</h5>
 <ul class="list-group recentFavorites">
     <li class="list-group-item recentFavoritesEntry" ng-repeat="favorite in owner.favorites">
-        <span class="favoriteTitle">{{favorite.favoriteTitle}}</span> {{' by ' + favorite.favoriteAuthor}}
+        <span class="favoriteTitle">{{favorite.favoriteTitle}}</span>{{' by ' + favorite.favoriteAuthor}}
     </li>
 </ul>

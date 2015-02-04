@@ -2,14 +2,14 @@
 
 /**
  * @ngdoc function
- * @name angularApp.controller:MainCtrl
+ * @name angularApp.controller:PopularCtrl
  * @description
- * # MainCtrl
+ * # PopularCtrl
  * Controller of the angularApp
  */
 angular.module('angularApp')
-  .controller('MainCtrl', function ($http, $scope) {
-  	$http.get('feeds/frontpage/popular-posts.json').
+  .controller('PopularCtrl', function ($http, $scope) {
+    $http.get('feeds/frontpage/popular-posts.json').
   		success(function (data) {
   			$scope.frontpage = data;
   			console.log('success frontpage');
