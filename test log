@@ -1,0 +1,59 @@
+[33mcommit 98b960de07eb374023c649225049c533af287a28[m
+Author: fsalaysay <fsalaysay@gmail.com>
+Date:   Sat Feb 7 20:29:30 2015 +0800
+
+    added userShare service
+
+[33mcommit 0db471f2ef167af22d16d4bed7201289d9508ecf[m
+Author: fsalaysay <fsalaysay@gmail.com>
+Date:   Thu Feb 5 00:09:34 2015 +0800
+
+    added recents view
+
+[33mcommit 0f65f4f63a589343d19eb37328f41d4aa7d96cf3[m
+Author: fsalaysay <fsalaysay@gmail.com>
+Date:   Wed Feb 4 19:22:42 2015 +0800
+
+    added popular posts feed (from JSON) from content area
+
+[33mcommit 60f580a05ce5da3eceb03ec7ee40afd4aee43c65[m
+Author: fsalaysay <fsalaysay@gmail.com>
+Date:   Wed Feb 4 18:36:55 2015 +0800
+
+    separated leftsidebar html; used ng-include
+
+[33mcommit 660264dd1f22b0c46e339cf0533ff0fc1ad8b88e[m
+Author: fsalaysay <fsalaysay@gmail.com>
+Date:   Wed Feb 4 17:55:10 2015 +0800
+
+    added workin list header and badge
+
+[33mcommit a9145ca6599f20685283e241d8d2483e1e0647a4[m
+Author: fsalaysay <fsalaysay@gmail.com>
+Date:   Wed Feb 4 17:25:22 2015 +0800
+
+    added working left sidebar with sample data from JSON
+
+[33mcommit 9e421c14df3d771dd90d48a8428d93d5facd4df4[m
+Author: fsalaysay <fsalaysay@gmail.com>
+Date:   Wed Feb 4 13:41:17 2015 +0800
+
+    Initial Commit
+
+[33mcommit 0427f769c7a596caeb7ffe55f8573fa57cd8ffa5[m
+Author: fsalaysay <fsalaysay@gmail.com>
+Date:   Tue Feb 3 17:01:09 2015 +0800
+
+    added sidebars and feeds
+
+[33mcommit f6c2e61f09eb5debfd7574dde37f8442f625b4d6[m
+Author: fsalaysay <fsalaysay@gmail.com>
+Date:   Tue Feb 3 16:43:16 2015 +0800
+
+    Initial Upload
+
+[33mcommit bc6e6581870c16cdbcdd24138c54380b6daffbd5[m
+Author: fsalaysay <fsalaysay@gmail.com>
+Date:   Tue Feb 3 16:16:05 2015 +0800
+
+    Initial commit

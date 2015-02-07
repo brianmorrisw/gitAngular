@@ -8,6 +8,6 @@
  * Service in the angularApp.
  */
 angular.module('angularApp')
-  .service('userShare', function () {
-    // AngularJS will instantiate a singleton by calling "new" on this function
+  .service('userShare', function ($scope) {
+  	console.log('test');
   });
