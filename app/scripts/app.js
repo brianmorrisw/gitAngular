@@ -22,8 +22,8 @@ angular
   .config(function ($routeProvider) {
     $routeProvider
       .when('/', {
-        templateUrl: 'views/main.html',
-        controller: 'MainCtrl'
+        templateUrl: 'views/body.html',
+        controller: 'BodyCtrl'
       })
       .when('/about', {
         templateUrl: 'views/about.html',
@@ -36,6 +36,10 @@ angular
       .when('/recent', {
         templateUrl: 'views/recent.html',
         controller: 'RecentCtrl'
+      })
+      .when('/main', {
+        templateUrl: 'views/main.html',
+        controller: 'MainCtrl'
       })
       .otherwise({
         redirectTo: '/'
