@@ -10,4 +10,5 @@
 angular.module('angularApp')
   .controller('MainCtrl', function ($scope) {
     $scope.firstName = '';
+    console.log('test for bri');
   });
